@@ -18,4 +18,4 @@ And most important
 
 ⚠️⚠️ We need to create a Procfile and give web: node "xyj.js"⚠️⚠️
 
-⚠️ app.listen(process.env.PORT || 5000, function () {}⚠️ -- we have to add process.env.port(sice heroku create its own port and we can add our port)
+⚠️ app.listen(process.env.PORT || 5000, function () {}⚠️ -- we have to add process.env.port(since heroku create its own port and we can add our port beside it as || 1234)
